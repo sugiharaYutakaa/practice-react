@@ -1,0 +1,71 @@
+.Music {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px transparent;
+    padding: 5px;
+    margin: 10px;
+}
+
+.Music:hover {
+    border: solid 1px #dadada;
+}
+
+.Music .left {
+    display: flex;
+}
+
+.Music .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Music .artistImage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Music .square {
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.Music .square img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Music .musicName {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 3px;
+
+
+}
+
+.Music .artistName {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #9b9b9b;
+    font-weight: bold;
+    padding: 3px;
+
+}
