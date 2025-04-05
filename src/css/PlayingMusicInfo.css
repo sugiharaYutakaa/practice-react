@@ -1,0 +1,76 @@
+.PlayingMusicInfo {
+    width: 250px;
+    height: 100%;
+    display: flex;
+}
+
+.PlayingMusicInfo .artistImage {
+    padding: 5px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PlayingMusicInfo .square {
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.PlayingMusicInfo .square img {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.PlayingMusicInfo .musicInfo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.PlayingMusicInfo .musicName {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    height: calc(100% / 3);
+
+
+}
+
+.PlayingMusicInfo .artistName {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #9b9b9b;
+    font-weight: bold;
+    height: calc(100% / 3);
+
+}
+
+.PlayingMusicInfo .btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: calc(100% / 3);
+
+}
+
+.PlayingMusicInfo .btn button {
+    border-radius: 1px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 0;
+}

@@ -1,0 +1,61 @@
+.ControlPanel {
+    display: flex;
+    height: 100%;
+    width: 250px;
+    margin: auto;
+}
+
+.preview {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.play:hover {
+    zoom: 1.05;
+    filter: brightness(1.5);
+}
+
+.play button {
+    border-radius: 50%;
+    border: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.next {
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview:hover {
+    zoom: 1.2;
+    color: #b6beff;
+}
+
+.next:hover {
+    zoom: 1.2;
+    color: #b6beff;
+
+}
+
+.preview button {
+    background-color: transparent;
+    border: 0;
+}
+
+.next button {
+    background-color: transparent;
+    border: 0;
+}
