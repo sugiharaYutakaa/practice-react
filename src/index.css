@@ -11,6 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+button:focus {
+  outline: none !important;
 }
 
 a {
@@ -30,6 +35,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: serif;
+
 }
 
 h1 {

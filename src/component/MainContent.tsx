@@ -9,12 +9,12 @@ function MainContent() {
             <div className="MainContent">
                 <TopImage />
                 <div className="container">
-                    <Music /><Music /><Music /><Music /><Music />
-                    <Music /><Music /><Music /><Music /><Music />
-                    <Music /><Music /><Music /><Music /><Music />
-                    <Music /><Music /><Music /><Music /><Music />
-                    <Music /><Music /><Music /><Music /><Music />
-                    <Music /><Music /><Music /><Music /><Music />
+                    <Music /><Music /><Music /><Music />
+                    <Music /><Music /><Music /><Music />
+                    <Music /><Music /><Music /><Music />
+                    <Music /><Music /><Music /><Music />
+                    <Music /><Music /><Music /><Music />
+
                 </div>
             </div >
         </>

@@ -1,19 +1,24 @@
 
 import '../../css/PlayingMusicInfo.css'
-
-function PlayingMusicInfo() {
+type Song = {
+    url: String;
+    title: String;
+    artist: String;
+    image: string;
+}
+function PlayingMusicInfo({ song }: { song: Song }) {
 
     return (
         <>
             <div className='PlayingMusicInfo'>
                 <div className='artistImage'>
                     <div className="square">
-                        <img src="https://user0514.cdnw.net/shared/img/thumb/ramenPAR566542450_TP_V4.jpg" />
+                        <img src={song.image} />
                     </div>
                 </div>
                 <div className='musicInfo'>
-                    <span className='musicName'>braba</span>
-                    <span className='artistName'>bababa</span>
+                    <span className='musicName'>{song.title}</span>
+                    <span className='artistName'>{song.artist}</span>
                     <div className='btn'><button>歌詞</button></div>
                 </div>
             </div>

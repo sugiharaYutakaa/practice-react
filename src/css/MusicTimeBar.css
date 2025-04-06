@@ -1,0 +1,9 @@
+.timeBar {
+    height: 2px;
+    width: 100vw;
+    position: fixed;
+    bottom: 90px;
+    left: 0;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
